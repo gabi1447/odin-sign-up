@@ -5,17 +5,9 @@
 }
 
 @font-face {
-    font-family: 'amaticbold';
-    src: url('../fonts/amatic-bold-webfont.woff2') format('woff2'),
-        url('../fonts/amatic-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'amatic_scregular';
-    src: url('../fonts/amaticsc-regular-webfont.woff2') format('woff2'),
-        url('../fonts/amaticsc-regular-webfont.woff') format('woff');
+    font-family: 'elliotsixregular';
+    src: url('../fonts/elliotsix-webfont.woff2') format('woff2'),
+        url('../fonts/elliotsix-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,7 +51,7 @@ img.background-img {
 }
 
 .title h1 {
-    font-family: "amaticbold";
+    font-family: "elliotsixregular";
     font-size: 5rem;
 
     color: white;
