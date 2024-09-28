@@ -31,7 +31,45 @@ You <span class="italic">know</span> you want to.
 </p>
         </article>
         <section class="form">
-            <form id="sign-up-form" action=""></form>
+            <form id="sign-up-form" action="">
+                <h2>Let's do this!</h2>
+                <div class="row">
+                    <div class="field">
+                        <label for="f-name">FIRST NAME</label>
+                        <input id="f-name" type="text" name="first-name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="l-name">LAST NAME</label>
+                        <input id="l-name" type="text" name="last-name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="email">EMAIL</label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input id="phone" type="tel" name="phone-number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" type="password" name="password" pattern="^.{8,}$" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input id="confirm-password" type="password" name="phone-confirm-password" pattern="^.{8,}$" required>
+                    </div>
+                </div>
+            </form>
+
             <div class="create-account">
                 <button type="submit" form="sign-up-form"></button>
             </div>
