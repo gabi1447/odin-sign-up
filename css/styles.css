@@ -19,3 +19,75 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Aside */
+.side-background-img {
+    position: relative;
+    flex: 1;
+    height: 100%;
+}
+
+img.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.title h1 {
+    font-family: "amaticbold";
+    font-size: 5rem;
+
+    color: white;
+}
+
+.title #logo {
+    width: 4.5rem;
+    height: 6rem;
+} 
+
+.side-background-img .credit {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.15rem;
+    color: black;
+}
+
+.side-background-img .credit a {
+    color: black;
+}
+
+/* Main */
+.content {
+    flex: 2;
+    height: 100%;
+
+    background-color: pink;
+}
